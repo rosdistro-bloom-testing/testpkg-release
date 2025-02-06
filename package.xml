@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format3.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>testpkg</name>
+  <version>1.0.0</version>
+  <description>This package is only a test.</description>
+  <author email="steven+openrobotics@nuclearsandwich.com">Steven! Ragnarök</author>
+  <maintainer email="steven+openrobotics@nuclearsandwich.com">Steven! Ragnarök</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
